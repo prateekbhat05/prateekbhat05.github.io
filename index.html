@@ -1,64 +1,67 @@
-<section class="hero">
-  <div class="hero-content">
-    <img src="profile.png" alt="Prateek Bhat" class="profile-img" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prateek Bhat | Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-    <h1 class="fade-in">Prateek Bhat</h1>
-    <h2 class="slide-up">
+  <!-- HERO -->
+  <section class="hero">
+    <img src="profile.png" class="profile-img" />
+    <h1 class="animate fade">Prateek Bhat</h1>
+    <h2 class="animate slide">
       Software Developer | Python | APIs | Cloud & Automation
     </h2>
-
-    <p class="fade-in-delay">
-      I build reliable backend systems and automation-focused applications
-      with a strong foundation in Python, REST APIs, and system design.
+    <p class="animate fade delay">
+      Building scalable backend systems and automation-driven solutions.
     </p>
 
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
+    <div class="buttons animate fade delay2">
+      <a href="#projects">Projects</a>
       <a href="https://github.com/prateekbhat05" target="_blank">GitHub</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="projects" class="projects">
-  <h3>Projects</h3>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h3 class="section-title">Projects</h3>
 
-  <div class="project-card reveal">
-    <h4>🔥 Online Fire Information System</h4>
+    <div class="project reveal">
+      <h4>🔥 Online Fire Information System</h4>
+      <p>
+        Real-time emergency reporting platform connecting multiple fire stations.
+      </p>
+      <a href="https://github.com/prateekbhat05/Online-Fire-Information-System" target="_blank">
+        View on GitHub →
+      </a>
+    </div>
+
+    <div class="project reveal">
+      <h4>🔍 Plagiarism Checker</h4>
+      <p>
+        Python-based text similarity detection using algorithmic comparison.
+      </p>
+      <a href="https://github.com/prateekbhat05/Plagiarism-Checker" target="_blank">
+        View on GitHub →
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact reveal">
+    <h3>Contact</h3>
+    <p>Email: prateekbhat07@gmail.com</p>
     <p>
-      Real-time incident reporting platform designed to improve emergency
-      coordination between fire stations.
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/prateekbhat" target="_blank">
+        linkedin.com/in/prateekbhat
+      </a>
     </p>
-    <ul>
-      <li>Python-based backend with structured data handling</li>
-      <li>Optimized SQL queries for scalability</li>
-      <li>Role-based access and admin dashboards</li>
-    </ul>
-    <a
-      href="https://github.com/prateekbhat05/Online-Fire-Information-System"
-      target="_blank"
-      class="project-link"
-    >
-      View on GitHub →
-    </a>
-  </div>
+  </section>
 
-  <div class="project-card reveal">
-    <h4>🔍 Plagiarism Checker</h4>
-    <p>
-      Python application to detect text similarity using algorithmic comparison
-      techniques.
-    </p>
-    <ul>
-      <li>Text preprocessing and similarity logic</li>
-      <li>Strong focus on algorithms and problem solving</li>
-      <li>Clean, modular Python code</li>
-    </ul>
-    <a
-      href="https://github.com/prateekbhat05/Plagiarism-Checker"
-      target="_blank"
-      class="project-link"
-    >
-      View on GitHub →
-    </a>
-  </div>
-</section>
+  <script src="script.js"></script>
+</body>
+</html>
